@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Ignore data and outputs
+data/
+simulation_output/
+check/
